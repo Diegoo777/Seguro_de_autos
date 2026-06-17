@@ -1,3 +1,0 @@
-Coloca aqui imagenes de ejemplo (vehiculos / evidencia de siniestro) en
-formato JPG o PNG para probarlas en la seccion "Imagenes" de la app.
-La app tambien permite subir imagenes directamente desde el navegador.
