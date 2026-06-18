@@ -37,7 +37,7 @@ entregable/
 pasos a seguir para la ejecucion rapida:
 Se debe de usar Anaconda PowerShell
 
-```bash
+
 0) Descargar todo el repositorio de Github y descomprirlo donde se quiera correr
 
 1) Instala Anaconda o Miniconda.
@@ -45,29 +45,49 @@ Se debe de usar Anaconda PowerShell
 2) Abre la terminal "Anaconda Prompt" o "Anaconda PowerShell".
 
 3) Situate dentro de la carpeta donde se encuentre el proyecto con el comando cd:
-       cd: ruta\hacia\del\proyecto
+       cd ruta\del\proyecto
 
 4) Crea el ambiente a partir del archivo environment.yml.
    (Esto crea un ambiente llamado "IA" con todas las librerias):
-       conda env create -f environment.yml
+       
+    ```bash
+    conda env create -f environment.yml
+    ```
 
    Si ya existe un ambiente "IA" y quieres reemplazarlo:
-       conda env remove -n IA
-       conda env create -f environment.yml
+    ```bash
+    conda env remove -n IA
+    ```
+
+    ```bash
+    conda env create -f environment.yml
+    ```
 
 5) Activa el ambiente:
-       conda activate IA
+    ```bash
+    conda activate IA
+    ```
+       
 
-6) Ejecuta la aplicacion:
-       streamlit run app.py
+7) Ejecuta la aplicacion:
+    ```bash
+    streamlit run app.py
+    ```
+       
 
-7) Se abrira automaticamente el navegador en:
-       http://localhost:8501
+9) Se abrira automaticamente el navegador en:
+    ```bash
+    http://localhost:8501
+    ```
    (si no abre solo, copia esa direccion en tu navegador).
 
-8) (OPCIONAL) Cuando ya no necesites la app, puedes borrar el
+11) (OPCIONAL) Cuando ya no necesites la app, puedes borrar el
    ambiente "IA" para que no ocupe espacio en disco.
    Primero desactivalo y luego eliminalo:
-       conda deactivate
-       conda env remove -n IA
-```
+    ```bash
+    conda deactivate
+    ```
+    
+    ```bash
+    conda env remove -n IA
+    ```
