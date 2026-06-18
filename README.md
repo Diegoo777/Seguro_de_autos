@@ -81,8 +81,8 @@ Se debe de usar Anaconda PowerShell
     ```
    (si no abre solo, copia esa direccion en tu navegador).
 
-11) (OPCIONAL) Cuando ya no necesites la app, puedes borrar el
-   ambiente "IA" para que no ocupe espacio en disco.
+11) Cuando ya no necesites la app, puedes borrar el
+   ambiente "IA" para que no se quede ahi suelto
    Primero desactivalo y luego eliminalo:
     ```bash
     conda deactivate
