@@ -26,7 +26,9 @@ entregable/
 │   └── modelo_clasificacion.joblib       # pipeline del simulador ya entrenados
 ├── utils/
 │   ├── preprocessing.py                  # Mejora de modelos
-    └── plots.py                          # Funciones de graficado
+│   └── plots.py                          # Funciones de graficado
+├── assets/
+    └── imagenes de muestra               # imagenes de referencia
 
 ```
 
