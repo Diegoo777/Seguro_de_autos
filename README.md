@@ -12,23 +12,21 @@ polizas de seguro de automovil. Resuelve dos problemas:
 
 ```
 entregable/
-├── app.py                  # Aplicacion Streamlit (8 secciones)
-├── entrenar_modelos.py     # Entrena y guarda los modelos .joblib
-├── environment.yml         # Ambiente de Anaconda
-├── requirements.txt        # Dependencias (pip)
-├── INSTRUCCIONES.txt       # Guia paso a paso de ejecucion
-├── README.md
+├── app.py                                # Aplicacion Streamlit (8 secciones)
+├── entrenar_modelos.py                   # Entrena y guarda los modelos .joblib
+├── environment.yml                       # Creacion de ambiente de anaconda
+├── requirements.txt                      # Dependencias (pip)
+├── README.md                             # estructura y guia de ejecucion
 ├── data/
-│   ├── seguro_auto_actuarial.csv          # Base original
-│   └── seguro_auto_actuarial_limpio.csv   # Base limpia (generada)
+│   └──  seguro_auto_actuarial.csv        # Base de datos
 ├── notebooks/
-│   └── 01_eda_modelado.ipynb              # visualizador de procesos en notebook
+│   └── 01_eda_modelado.ipynb             # visualizador de procesos en notebook
 ├── models/
-│   ├── modelo_regresion.joblib
-│   └── modelo_clasificacion.joblib
+│   ├── modelo_regresion.joblib           # pipeline del simulador ya entrenados
+│   └── modelo_clasificacion.joblib       # pipeline del simulador ya entrenados
 ├── utils/
-│   ├── preprocessing.py    # Mejora de modelos
-    └── plots.py            # Funciones de graficado
+│   ├── preprocessing.py                  # Mejora de modelos
+    └── plots.py                          # Funciones de graficado
 
 ```
 
